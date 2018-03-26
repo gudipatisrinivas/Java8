@@ -4,15 +4,14 @@ import java.util.function.Predicate;
 
 public class PredicateAndOr {
 	
-	public static void m1(Predicate<Integer> p,int[] arr) {
-		for(int i=0;i<arr.length;i++) {
-		if(p.test(i)) {
-			System.out.println(arr[i]);
-			
-		  }
+	public static void m1(Predicate<Integer> p, int[] arr) {
+		for (int i = 0; i < arr.length; i++) {
+			if (p.test(i)) {
+				System.out.println(arr[i]);
+
+			}
 		}
-		
-		
+
 	}
 
 	public static void main(String[] args) {
