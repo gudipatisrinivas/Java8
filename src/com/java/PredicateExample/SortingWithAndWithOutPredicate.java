@@ -36,7 +36,7 @@ public class SortingWithAndWithOutPredicate {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
 		List<String> myList = new ArrayList<String>();
 		myList.add("srinivas");
 		myList.add("sankar");
@@ -44,11 +44,10 @@ public class SortingWithAndWithOutPredicate {
 		myList.add("mounika");
 		myList.add("devika");
 		myList.add("jagan");
-		
-		SortingWithAndWithOutPredicate sorting=new SortingWithAndWithOutPredicate();
+
+		SortingWithAndWithOutPredicate sorting = new SortingWithAndWithOutPredicate();
 		sorting.sortingWithOutPredicate(myList);
 		sorting.sortingWithPredicate(myList);
-		
 
 	}
 
