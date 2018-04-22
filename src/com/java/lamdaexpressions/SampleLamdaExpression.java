@@ -1,7 +1,5 @@
 package com.java.lamdaexpressions;
 
-import com.java.lamdaexpressionsInterface.LamdaExpression;
-
 public class SampleLamdaExpression{
 
 	public static void main(String[] args) {
